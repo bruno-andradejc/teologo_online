@@ -1,258 +1,250 @@
 @charset "UTF-8";
 
 :root {
-    --color1 :#FCC822;
-    --color2 :#E0E0E0;
-    --color3 :#D1D1D1;
-    --color4 :#333333;
+  --color1: #FCC822;
+  --color2: #E0E0E0;
+  --color3: #D1D1D1;
+  --color4: #333333;
 }
 
- 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 header {
-    width: 100%;
-    display:flex; 
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  padding: 24px 32px;
 }
 
-
-.logo {
-margin: 20px;
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color2);
+  padding-bottom: 16px;
 }
-
 
 ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    margin-right: 30px;
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
 
+li {
+  padding-right: 32px;
+}
+
+li:last-child {
+  padding-right: 0px;
+}
 
 li a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--color4);
-    padding-right: 10px;
+  text-decoration: none;
+  color: var(--color3);
 }
-
 
 li a:hover {
-    color: var(--color1);
+  color: var(--color1);
 }
 
-#men1 {
-    display: flex;
-    align-items: center;
+.menu-user {
+  color: var(--color1);
+  display: flex;
+  align-items: center;
 }
 
-#men1 li {
-    padding-right: 25px;
+.menu-user * {
+  padding-right: 8px;
 }
-
-#men {
-    display: flex;
-    align-items: center;
-}
-
 
 nav {
-    text-align: center;
-    margin-bottom: 15px;
-    margin-top: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 nav a {
-    text-decoration: none;
-    color:var(--color4);
-    font-weight: bolder;
-    margin-right: 50px;  
+  text-decoration: none;
+  color: var(--color4);
+  font-weight: bolder;
+  margin-right: 50px;
 }
 
 .textprincipal {
-    background-color:var(--color1);
-    text-align: justify;
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5em;
-    padding: 60px 40px;
+  background-color: var(--color1);
+  text-align: justify;
+  color: white;
+  font-size: 2.5em;
+  padding: 60px 40px;
 }
 
 .textprincipal p {
-    width: 80%;
-    
-    margin: 0 auto;
+  width: 80%;
+  
+  margin: 0 auto;
 }
 
 
 #um {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
 }
 
 .quadrado:hover {
-    background-color: var(--color1);
-    color: white;
+  background-color: var(--color1);
+  color: white;
 }
 
-.quadrado  {
-    background-color: var(--color2);
-    width: 200px;
-    height: 100px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
+.quadrado {
+  background-color: var(--color2);
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 .aname {
-    font-size: 23px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+  font-size: 23px;
+  font-weight: bolder;
 }
 
 
-.aname > p {
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
-    align-items: center;
-    margin-right:52px;
+.aname>p {
+  font-weight: bolder;
+  font-size: 23px;
+  align-items: center;
+  margin-right: 52px;
 }
 
 .letraa {
-    margin-top: -80px;
-    margin-right:auto;
-    padding: 5px;
-    font-size: 19px;
+  margin-top: -80px;
+  margin-right: auto;
+  padding: 5px;
+  font-size: 19px;
 }
 
 .bname {
-    font-size: 23px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+  font-size: 23px;
+  font-weight: bolder;
 }
 
 
-.bname > p {
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
-    align-items: center;
-    margin-right:39px;
+.bname>p {
+  font-weight: bolder;
+  font-size: 23px;
+  align-items: center;
+  margin-right: 39px;
 }
 
 .letrab {
-    margin-top: -80px;
-    margin-right:auto;
-    padding: 5px;
-    font-size: 19px;
+  margin-top: -80px;
+  margin-right: auto;
+  padding: 5px;
+  font-size: 19px;
 }
 
 .cname {
-    font-size: 23px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+  font-size: 23px;
+  font-weight: bolder;
 }
 
 
-.cname > p {
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
-    align-items: center;
-    margin-right:55px;
+.cname>p {
+  font-weight: bolder;
+  font-size: 23px;
+  align-items: center;
+  margin-right: 55px;
 }
 
 .letrac {
-    margin-top: -80px;
-    margin-right:auto;
-    padding: 5px;
-    font-size: 19px;
+  margin-top: -80px;
+  margin-right: auto;
+  padding: 5px;
+  font-size: 19px;
 }
 
 .dname {
-    font-size: 23px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+  font-size: 23px;
+  font-weight: bolder;
 }
 
 
-.dname > p {
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
-    align-items: center;
-    margin-right:28px;
+.dname>p {
+  font-weight: bolder;
+  font-size: 23px;
+  align-items: center;
+  margin-right: 28px;
 }
 
 .letrad {
-    margin-top: -80px;
-    margin-right:auto;
-    padding: 5px;
-    font-size: 19px;
+  margin-top: -80px;
+  margin-right: auto;
+  padding: 5px;
+  font-size: 19px;
 }
 
 footer {
-    width: 100%;
+  width: 100%;
 }
 
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
 }
 
 button {
-    padding: 15px 25px;
-    border: none;
-    border-radius: 4px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 4px;
 }
 
 .q1 a {
-    padding-left: 6px;
-    text-decoration: none;
-    color: var(--color4);
-    font-weight: 800;
+  padding-left: 6px;
+  text-decoration: none;
+  color: var(--color4);
+  font-weight: 800;
 }
 
 .q3 a {
-    padding-left: 6px;
-    text-decoration: none;
-    color: var(--color4);
-    font-weight: 800;
+  padding-left: 6px;
+  text-decoration: none;
+  color: var(--color4);
+  font-weight: 800;
 }
 
 .q4 {
-    margin-right: 100px;
+  margin-right: 100px;
 }
 
 .q4 a {
-    padding-right: 6px;
-    text-decoration: none;
-    color: var(--color4);
-    font-weight: 800;
+  padding-right: 6px;
+  text-decoration: none;
+  color: var(--color4);
+  font-weight: 800;
 }
 
 .q1 button:hover {
-    background-color: var(--color1);
+  background-color: var(--color1);
 }
 
 .q3 button:hover {
-    background-color: var(--color1);
+  background-color: var(--color1);
 }
 
 .q4 button:hover {
-    background-color: var(--color1);
+  background-color: var(--color1);
 }
