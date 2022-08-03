@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+:root {
+    --color1 :#FCC822;
+    --color2 :#E0E0E0;
+    --color3 :#D1D1D1;
+    --color4 :#333333;
+}
+
+ 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display:flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+margin: 20px;
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+
+li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color4);
+    margin-right: 30px;
+}
+
+
+li img {
+    margin-right: 7px;
+}
+
+
+li a:hover {
+    color: var(--color1);
+}
+
+
+nav {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:var(--color4);
+    font-weight: bolder;
+    margin-right: 50px;  
+}
+
+main > p {
+    background-color:var(--color1);
+    text-align: justify;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    padding: 60px 40px;
+}
+
+
+#um {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.quadrado:hover {
+    background-color: var(--color1);
+    color: white;
+
+}
+
+
+.quadrado  {
+    background-color: var(--color2);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+.aname {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+.aname > p {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    align-items: center;
+    margin-right:52px;
+}
+
+.letraa {
+    margin-top: -80px;
+    margin-right:auto;
+    padding: 5px;
+    font-size: 19px;
+}
+
+.bname {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+.bname > p {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    align-items: center;
+    margin-right:39px;
+}
+
+.letrab {
+    margin-top: -80px;
+    margin-right:auto;
+    padding: 5px;
+    font-size: 19px;
+}
+
+.cname {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+.cname > p {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    align-items: center;
+    margin-right:55px;
+}
+
+.letrac {
+    margin-top: -80px;
+    margin-right:auto;
+    padding: 5px;
+    font-size: 19px;
+}
+
+.dname {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+.dname > p {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    align-items: center;
+    margin-right:28px;
+}
+
+.letrad {
+    margin-top: -80px;
+    margin-right:auto;
+    padding: 5px;
+    font-size: 19px;
+}
+
+footer {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 4px;
+}
+
+.q1 a {
+    padding-left: 6px;
+    text-decoration: none;
+    color: var(--color4);
+}
+
+.q3 a {
+    padding-left: 6px;
+    text-decoration: none;
+    color: var(--color4);
+}
+
+.q4 {
+    margin-right: 200px;
+}
+
+.q4 a {
+    padding-right: 6px;
+    text-decoration: none;
+    color: var(--color4);
+}
+
+.q1 button:hover {
+    background-color: var(--color1);
+}
+
+.q3 button:hover {
+    background-color: var(--color1);
+}
+
+.q4 button:hover {
+    background-color: var(--color1);
+}
