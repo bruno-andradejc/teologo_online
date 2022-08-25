@@ -64,16 +64,46 @@ li a:hover {
   padding-right: 8px;
 }
 
-nav {
-  text-align: center;
-  margin-bottom: 15px;
-  margin-top: 20px;
+nav {/*progres-contender*/
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 15px;
+  position: relative;
+  display: flex;
+}
+nav::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%);
+  height: 4px;
+  width: 100%;
+  z-index: -1;
 }
 
-nav a {
+.nave {/*progress*/
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  height: 4px;
+  width: 100%;
+  z-index: -1;
+}
+
+.nave a {
   text-decoration: none;
   color: var(--color4);
   font-weight: bolder;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 50px;
 }
 
@@ -83,14 +113,13 @@ nav a {
   color: white;
   font-size: 2.5em;
   padding: 60px 40px;
+  margin-top: 65px;
 }
 
 .textprincipal p {
   width: 80%;
-  
   margin: 0 auto;
 }
-
 
 #um {
   display: flex;
